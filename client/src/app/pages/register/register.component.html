@@ -1,0 +1,11 @@
+<h1>REGISTER</h1>
+<form>
+<label for="username">User name:</label>
+<input type="text" [(ngModel)]="signUpObj.userName" id="username" name="userName" required>
+<label for="email">Email:</label>
+<input type="email" [(ngModel)]="signUpObj.email" id="email" name="email" required>
+<label for="password">Password:</label>
+<input type="password" [(ngModel)]="signUpObj.password" id="password" name="password" required>
+<input type="submit" value="Submit" (click)="onRegister()">
+<p>Aleready registered?Go to Login now!</p>
+</form>
