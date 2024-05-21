@@ -1,8 +1,8 @@
 <h1>Login</h1>
 <form>
 <label for="username">User name:</label>
-<input type="text" [(ngModel)]="loginObj.email" id="username" name="username" required>
+<input type="text" [(ngModel)]="loginObj.userName" id="username" name="username" required>
 <label for="password">Password:</label>
 <input type="password" [(ngModel)]="loginObj.password" id="password" name="password" required>
-<input type="submit" value="Submit">
+<input type="submit" (click)="onLogin()" value="Submit">
 </form>
