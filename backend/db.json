@@ -130,62 +130,72 @@
     }
   ],
 
-  "costumers": [
+  "customers": [
     {
+      "id": 1,
       "name": "Juan Pérez",
       "email": "juan.perez@example.com",
       "number": 600123456,
       "location": "Madrid, España"
     },
     {
+      "id": 2,
       "name": "María Gómez",
       "email": "maria.gomez@example.com",
       "number": 600654321,
       "location": "Barcelona, España"
     },
     {
+      "id": 3,
       "name": "Carlos Fernández",
       "email": "carlos.fernandez@example.com",
       "number": 600789012,
       "location": "Valencia, España"
     },
     {
+      "id": 4,
       "name": "Lucía Martínez",
       "email": "lucia.martinez@example.com",
       "number": 600345678,
       "location": "Sevilla, España"
     },
     {
+      "id": 5,
       "name": "José López",
       "email": "jose.lopez@example.com",
       "number": 600234567,
       "location": "Bilbao, España"
     },
     {
+      "id": 6,
       "name": "Ana Sánchez",
       "email": "ana.sanchez@example.com",
       "number": 600456789,
       "location": "Zaragoza, España"
     },
     {
+      "id": 7,
       "name": "David Torres",
       "email": "david.torres@example.com",
       "number": 600567890,
       "location": "Málaga, España"
     },
     {
+      "id": 8,
       "name": "Laura Ruiz",
       "email": "laura.ruiz@example.com",
       "number": 600678901,
       "location": "Murcia, España"
     },
     {
+      "id": 9,
       "name": "Sergio Ramírez",
       "email": "sergio.ramirez@example.com",
       "number": 600789234,
       "location": "Granada, España"
     },
     {
+      "id": 10,
       "name": "Carmen Herrera",
       "email": "carmen.herrera@example.com",
       "number": 600890123,
@@ -196,7 +206,7 @@
   "orders": [
     {
       "order_id": 1,
-      "customer": "Laura Ruiz",
+      "customer_id": 8,
       "products": [
         {
           "id": 6,
@@ -211,7 +221,7 @@
     },
     {
       "order_id": 2,
-      "customer": "David Torres",
+      "customer_id": 7,
       "products": [
         {
           "id": 3,
@@ -226,7 +236,7 @@
     },
     {
       "order_id": 3,
-      "customer": "María Gómez",
+      "customer_id": 2,
       "products": [
         {
           "id": 5,
@@ -241,7 +251,7 @@
     },
     {
       "order_id": 4,
-      "customer": "Sergio Ramírez",
+      "customer_id": 9,
       "products": [
         {
           "id": 4,
@@ -256,7 +266,7 @@
     },
     {
       "order_id": 5,
-      "customer": "Juan Pérez",
+      "customer_id": 1,
       "products": [
         {
           "id": 1,

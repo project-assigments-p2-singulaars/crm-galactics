@@ -1,10 +1,11 @@
 export interface TopLevel {
     naves:     Nave[];
-    costumers: Costumer[];
+    costumers: Customer[];
     orders:    Order[];
 }
 
-export interface Costumer {
+
+export interface Customer {
     name:     string;
     email:    string;
     number:   number;
