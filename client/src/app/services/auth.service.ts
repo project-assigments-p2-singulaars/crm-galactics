@@ -4,6 +4,10 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class AuthService {
-
+  token = '';
   constructor() { }
+
+  isAuth(){
+    return this.token.length > 0;
+  }
 }
