@@ -1,54 +1,67 @@
 *,
 *:after,
 *:before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-body{
-    font-size: 100%;
-    list-style-type: none;
+body {
+  font-size: 100%;
+  list-style-type: none;
 }
 
-
-header{
+header {
   display: flex;
-  background: rgb(52,52,52);
-  background: linear-gradient(180deg, rgba(52,52,52,1) 0%, rgba(201,190,190,1) 49%, rgba(255,255,255,1) 60%, rgba(182,182,182,1) 100%);
+  justify-content: space-between;
+  background: linear-gradient(
+    180deg,
+    rgba(52, 52, 52, 1) 0%,
+    rgba(201, 190, 190, 1) 49%,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(182, 182, 182, 1) 100%
+  );
 }
 
-@font-face{
-  font-family: 'saturn3';
-    src: url('../../../assets/saturn_3/Saturn\ 3.otf') format('woff2'),
-         url('../../../assets/saturn_3/Saturn\ 3.ttf') format('woff');
-    font-weight: normal;
-    font-style: normal;
+@font-face {
+  font-family: "saturn3";
+  src: url("../../../assets/saturn_3/Saturn\ 3.otf") format("woff2"),
+    url("../../../assets/saturn_3/Saturn\ 3.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-p{
+a {
+  display: flex;
+  align-items: center;
   font-family: "saturn3";
   margin: 0;
-  font-size:40px ;
+  font-size: 40px;
   color: #f5aca5;
-  text-align: center;
+  background: linear-gradient(to bottom, #ffdea2, #ffd1c1, #c6392f);
+  background-size: cover;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.userSection{
+.userSection {
   display: flex;
-
 }
 
-.title{
-  width: 50%;
-
+.title {
+  width: 40%;
 }
 
-.userImage{
+.userImage {
   width: 80%;
 }
 
-figure{
+div {
+  display: flex;
+  gap: 20px;
+}
+
+figure {
   display: flex;
   align-items: center;
   margin: 0;

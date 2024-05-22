@@ -1,17 +1,52 @@
-aside{
-  background: rgb(52,52,52);
-  background: linear-gradient(90deg, rgba(52,52,52,1) 0%, rgba(201,190,190,1) 49%, rgba(255,255,255,1) 60%, rgba(182,182,182,1) 100%);
-  width: 15%;
-  height: 100%;
-
+@font-face {
+  font-family: "saturn3";
+  src: url("../../../assets/saturn_3/Saturn\ 3.otf") format("woff2"),
+    url("../../../assets/saturn_3/Saturn\ 3.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-ul{
+aside {
+  padding-top: 30px;
+  background: rgb(52, 52, 52);
+  background: linear-gradient(
+    90deg,
+    rgba(52, 52, 52, 1) 0%,
+    rgba(201, 190, 190, 1) 49%,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(182, 182, 182, 1) 100%
+  );
+  width: 15%;
+  height: 100%;
+}
+
+ul {
   display: flex;
   flex-direction: column;
-  font-size: 45px;
+  align-items: center;
+  font-size: 25px;
   gap: 40px;
   margin: 0;
   padding: 0;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
+  color: #fae8db;
+  background-color: #7d7777;
+  width: 200px;
+  height: 35px;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to bottom, #223b5f, #ffb9a8);
+  border-image-slice: 1;
+  font-family: "saturn3";
+  font-size: 18px;
+}
+
+a:hover {
+  background-color: #fbc3b5;
+  color: #fff;
 }
