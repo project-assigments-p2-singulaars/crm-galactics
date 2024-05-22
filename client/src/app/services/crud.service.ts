@@ -37,7 +37,7 @@ export class CrudService {
     return this.http.get<Nave[]>(`${this.apiUrl}/naves`);
   }
 
-  getNave(id: number): Observable<Nave> {
+  getNaveById(id: number): Observable<Nave> {
     return this.http.get<Nave>(`${this.apiUrl}/naves/${id}`);
   }
 
@@ -58,7 +58,7 @@ export class CrudService {
     return this.http.get<Order[]>(`${this.apiUrl}/orders`);
   }
 
-  getOrder(id: number): Observable<Order> {
+  getOrderById(id: number): Observable<Order> {
     return this.http.get<Order>(`${this.apiUrl}/orders/${id}`);
   }
 
