@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-register',
@@ -9,22 +10,13 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './register.component.scss'
 })
 export class RegisterComponent {
+  userServcie = inject(UserService)
   signUpObj: SignUpModel = new SignUpModel();
 
   onRegister(){
-    const localUser = localStorage.getItem('angular17User');
-    if(localUser != null ){
-      const users = JSON.parse(localUser);
-      users.push(this.signUpObj);
-      localStorage.setItem('angular17User', JSON.stringify(users));
-    }else{
-      const users =[];
-      users.push(this.signUpObj);
-      localStorage.setItem('angular17User', JSON.stringify(users));
-
-      
-    }
-
+    
+    console.log(this.signUpObj);
+    this.userServcie.addUser(this.signUpObj).subscribe()
   }
 
 }
