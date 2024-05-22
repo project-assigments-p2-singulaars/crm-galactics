@@ -1,0 +1,17 @@
+aside{
+  background: rgb(52,52,52);
+  background: linear-gradient(90deg, rgba(52,52,52,1) 0%, rgba(201,190,190,1) 49%, rgba(255,255,255,1) 60%, rgba(182,182,182,1) 100%);
+  width: 15%;
+  height: 100%;
+
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  font-size: 45px;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
