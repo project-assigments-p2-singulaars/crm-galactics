@@ -4,9 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-costumers',
   standalone: true,
   imports: [],
-  templateUrl: './costumers.component.html',
-  styleUrl: './costumers.component.scss'
+  templateUrl: './customers.component.html',
+  styleUrl: './customers.component.scss',
 })
-export class CostumersComponent {
-
-}
+export class CustomersComponent {}
