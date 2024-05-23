@@ -6,6 +6,7 @@ import { Customer, Nave, Order, Product } from '../interfaces/database';
 @Injectable({
   providedIn: 'root'
 })
+
 export class CrudService {
 
   http=inject(HttpClient);
@@ -51,8 +52,15 @@ export class CrudService {
     return this.http.get<Nave>(`${this.apiUrl}/naves/${id}`);
   }
 
-  createNave(nave: Nave): Observable<Nave> {
-    return this.http.post<Nave>(`${this.apiUrl}/naves`, nave);
+  createNave(nave: any): Observable<any> {
+    return this.getNaves().pipe(
+      map(naves => {
+        const newId = naves.length > 0 ? Math.max(...naves.map(nave => nave.id)) + 1 : 1;
+        const newNave = { id: newId, ...nave };
+        return newNave;
+      }),
+      switchMap(newNave => this.http.post<any>(`${this.apiUrl}/naves`, newNave))
+    );
   }
 
   updateNave(nave: Nave): Observable<Nave> {

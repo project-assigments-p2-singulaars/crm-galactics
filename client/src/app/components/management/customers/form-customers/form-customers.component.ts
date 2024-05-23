@@ -16,11 +16,8 @@ export class FormCustomersComponent {
 
   customerForm: FormGroup;
 
-  customers: Customer[] = [];
+
   naves: Nave[] = [];
-  orders: Order[] = [];
-  customer!: Customer;
-  newCustomer: any = {};
 
   constructor(private crudService: CrudService, private fb: FormBuilder) { 
     this.customerForm = this.fb.group({
@@ -39,7 +36,6 @@ export class FormCustomersComponent {
   
   this.crudService.createCustomer(this.customerForm.value).subscribe(() => {
     console.log('Customer added successfully');
-    this.newCustomer = {}; // Limpiar formulario
   });
   
 }

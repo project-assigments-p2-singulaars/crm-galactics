@@ -1,0 +1,21 @@
+<form [formGroup]="naveForm" (ngSubmit)="createNave(naveForm.value)">
+
+    <label for="name">Nombre:</label>
+    <input type="text" formControlName="name">
+
+    <label for="img">Imagen:</label>
+    <input type="text" formControlName="img">
+
+    <label for="price">Precio:</label>
+    <input type="number" formControlName="price">
+
+    <label for="description">Descripción:</label>
+    <input type="text" formControlName="description">
+
+    <label for="stock">Stock:</label>
+    <input type="number" formControlName="stock">
+
+    <button type="submit" [disabled]="naveForm.invalid">Submit</button>
+
+
+</form>

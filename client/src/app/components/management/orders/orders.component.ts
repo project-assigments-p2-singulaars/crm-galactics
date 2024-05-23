@@ -12,15 +12,15 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   styleUrl: './orders.component.scss'
 })
 export class OrdersComponent implements OnInit{
-
+  
   constructor(private crudService: CrudService) {  }
-
+  
   customers: Customer[] = [];
   naves: Nave[] = [];
   orders: Order[] = [];
   customer!: Customer;
   order!: Order;
-
+  
   ngOnInit(): void {
 
     this.getOrders();
@@ -48,6 +48,7 @@ export class OrdersComponent implements OnInit{
   }
 
 
+  
 
 
 }
