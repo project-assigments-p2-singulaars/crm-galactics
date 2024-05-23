@@ -34,6 +34,11 @@ export class AuthService {
   }
 
   isAuth(){
-    return false;
+    if(this.localStorageService.getItem('token') !== undefined && this.localStorageService.getItem('token') !== null){
+      return true;
+    }else{
+      return false;
+
+    }
   }
 }

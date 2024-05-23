@@ -32,21 +32,24 @@ ngOnInit(): void {
   })
 }
 
-onSubmit() {
+async onSubmit() {
   if (this.loginForm.valid) {
     const { email, password } = this.loginForm.value;
     console.log(this.loginForm.value);
     
-    this.userService.login({ email, password }).subscribe(
+    await this.userService.login({ email, password }).subscribe(
       () => {
         console.log("win");
         // Redirige al usuario a la página de dashboard (ajusta según tus rutas)
+        this.router.navigate(['/home']);
+
       },
       error => {
         console.log("fail");
         
       }
     );
+
   }
 }
 //  async onLogin(){
