@@ -1,18 +1,12 @@
-*,
-*:after,
-*:before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-body {
-  font-size: 100%;
-  list-style-type: none;
+:host {
+  display: block;
+  background-color: rgb(251, 0, 255);
+  grid-area: header;
 }
 
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background: linear-gradient(
     180deg,
@@ -23,48 +17,23 @@ header {
   );
 }
 
-@font-face {
-  font-family: "saturn3";
-  src: url("../../../assets/saturn_3/Saturn\ 3.otf") format("woff2"),
-    url("../../../assets/saturn_3/Saturn\ 3.ttf") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-a {
-  display: flex;
-  align-items: center;
-  font-family: "saturn3";
-  margin: 0;
-  font-size: 40px;
-  color: #f5aca5;
-  background: linear-gradient(to bottom, #ffdea2, #ffd1c1, #c6392f);
-  background-size: cover;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+.userImage {
+  height: 100px;
 }
 
 .userSection {
   display: flex;
+  align-items: center;
 }
 
 .title {
-  width: 40%;
+  height: 100px;
 }
 
-.userImage {
-  width: 80%;
-}
-
-div {
-  display: flex;
-  gap: 20px;
-}
-
-figure {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  width: 200px;
-  height: 200px;
+a {
+  font-family: "saturn 3";
+  font-size: 20px;
+  color: #f4ada7;
+  text-decoration: none;
+  -webkit-text-stroke: 2px #24385c;
 }
