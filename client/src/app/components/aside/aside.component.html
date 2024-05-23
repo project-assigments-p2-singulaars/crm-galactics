@@ -1,8 +1,10 @@
 <aside>
   <ul>
-    <a routerLink="/dashboard">Dashboard</a>
-    <a routerLink="/customer">Customer</a>
-    <a routerLink="/orders">Orders</a>
-    <a routerLink="/product">Product</a>
+    <mat-list role="list">
+      <mat-list-item role="listitem"><a [routerLink]='["/dashboard"]'>Dashboard</a></mat-list-item>
+      <mat-list-item role="listitem"><a [routerLink]='["/products"]'>Products</a></mat-list-item>
+      <mat-list-item role="listitem"><a [routerLink]='["/customers"]'>Customers</a></mat-list-item>
+      <mat-list-item role="listitem"><a [routerLink]='["/orders"]'>Orders</a></mat-list-item>
+    </mat-list>
   </ul>
 </aside>

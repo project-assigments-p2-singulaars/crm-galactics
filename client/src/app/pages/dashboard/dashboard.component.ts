@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from '../../components/header/header.component';
-import { AsideComponent } from '../../components/aside/aside.component';
+import { Chart, registerables } from 'chart.js';
+import { DashboardService } from '../../services/dashboard.service';
+import { Nave } from '../../interfaces/database';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, AsideComponent],
+  imports: [RouterOutlet],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.scss',
 })

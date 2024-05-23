@@ -1,9 +1,10 @@
 <header>
   <img class="title" src="../../../assets/Galactics.png" alt="Title of the Galactics">
   <div class="userSection">
-    <a href="">User</a>
-    <figure>
-      <img class="userImage" src="https://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png" >
-    </figure>
+    <button mat-button  [matMenuTriggerFor]="menu">User</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item><a [routerLink]='["/profile"]'>Profile</a></button>
+      <button mat-menu-item><a [routerLink]='["/login"]'>Logout</a></button>
+    </mat-menu>
   </div>
 </header>
