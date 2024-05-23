@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { LocalstorageService } from '../../services/localstorage.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -8,5 +9,14 @@ import { Component } from '@angular/core';
   styleUrl: './dashboard.component.scss'
 })
 export class DashboardComponent {
+  localStorageService=inject(LocalstorageService)
+
+
+logOut(){
+
+this.localStorageService.clearStorage();
+window.location.reload();
+
+  }
 
 }
