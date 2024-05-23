@@ -1,34 +1,42 @@
-import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms'
+import { Component,inject } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { SignUpModel } from '../register/register.component';
 import { Router } from '@angular/router';
-
+import { userData } from '../../interfaces/userData';
+import { LocalstorageService } from '../../services/localstorage.service';
+import { FormGroup } from '@angular/forms';
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [FormsModule,],
+  imports: [ReactiveFormsModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
+  // loginObj: LoginModel = new LoginModel();
+  private localStorageService = inject(LocalstorageService);
+  loginForm!:FormGroup;
+
 constructor(private router:Router){
 
+
 }
 
-  loginObj: LoginModel = new LoginModel();
 
-  onLogin(){
-    const localUsers=localStorage.getItem('angular17User');
-    if(localUsers !=null){
-      const users=JSON.parse(localUsers);
-      const isUserPresent=users.find ((user:SignUpModel)=>user.userName==this.loginObj.userName && user.password ==this.loginObj.password);
-if(isUserPresent !=undefined){
-  alert("User found...")
-  localStorage.setItem('loggedUser',JSON.stringify(isUserPresent));
-  this.router.navigateByUrl('/dashboard')
-}else{
-  alert("No user found")
-}
+ async onLogin(){
+    const user:userData={
+      userName:this.loginForm.controls["userName"].value,
+      password:this.loginForm.controls["password"].value,
+    }
+    try {
+      await this.localStorageService.getItem('user');
+      const {id} = this.localStorageService.getItem('user') as userData
+      console.log(id);
+
+      this.router.navigate([`/profile/${id}`]);
+
+    }  catch (error) {
+      alert('ups! something occurred');
     }
 
   }
@@ -37,12 +45,12 @@ if(isUserPresent !=undefined){
 
 
 
-export class LoginModel{
-  userName: string;
-  password: string;
+// export class LoginModel{
+//   userName: string;
+//   password: string;
 
-  constructor(){
-    this.userName = "";
-    this.password = "";
-  }
-}
+//   constructor(){
+//     this.userName = "";
+//     this.password = "";
+//   }
+// }
