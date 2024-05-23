@@ -6,10 +6,12 @@ export interface TopLevel {
 
 
 export interface Customer {
+    id: number;
     name:     string;
     email:    string;
     number:   number;
     location: string;
+    img: string;
 }
 
 export interface Nave {

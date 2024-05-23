@@ -1,0 +1,9 @@
+
+<input matInput placeholder="Ej. Pizza" (keyup)="onKey($event)">
+
+@for (customer of filteredCustomers; track $index) {
+    <img src="{{customer.img}}" alt="">
+    <a [routerLink]="['/customer', customer.id]" ><h3>{{customer.name}}</h3></a>
+
+}
+

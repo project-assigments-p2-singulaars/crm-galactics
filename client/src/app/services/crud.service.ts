@@ -1,6 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, catchError, map, switchMap } from 'rxjs';
 import { Customer, Nave, Order, Product } from '../interfaces/database';
 
 @Injectable({
@@ -23,14 +23,24 @@ export class CrudService {
     return this.http.get<Customer>(`${this.apiUrl}/customers/${id}`);
   }
 
-  createCustomer(costumer: Customer): Observable<Customer> {
-    return this.http.post<Customer>(`${this.apiUrl}/customers`, costumer);
+  createCustomer(customer: any): Observable<any> {
+    return this.getcustomers().pipe(
+      map(customers => {
+        const newId = customers.length > 0 ? Math.max(...customers.map(c => c.id)) + 1 : 1;
+        const newCustomer = { id: newId, ...customer };
+        return newCustomer;
+      }),
+      switchMap(newCustomer => this.http.post<any>(`${this.apiUrl}/customers`, newCustomer))
+    );
   }
 
+  
 
   deleteCustomer(id: number): Observable<void> {
     return this.http.delete<void>(`${this.apiUrl}/customers/${id}`);
   }
+
+
 
   // Naves
   getNaves(): Observable<Nave[]> {

@@ -129,80 +129,48 @@
       "stock": 100
     }
   ],
-
   "customers": [
     {
       "id": 1,
       "name": "Juan Pérez",
       "email": "juan.perez@example.com",
       "number": 600123456,
-      "location": "Madrid, España"
-    },
-    {
-      "id": 2,
-      "name": "María Gómez",
-      "email": "maria.gomez@example.com",
-      "number": 600654321,
-      "location": "Barcelona, España"
+      "location": "Madrid, España",
+      "img": ""
     },
     {
       "id": 3,
       "name": "Carlos Fernández",
       "email": "carlos.fernandez@example.com",
       "number": 600789012,
-      "location": "Valencia, España"
+      "location": "Valencia, España",
+      "img": ""
     },
     {
       "id": 4,
       "name": "Lucía Martínez",
       "email": "lucia.martinez@example.com",
       "number": 600345678,
-      "location": "Sevilla, España"
+      "location": "Sevilla, España",
+      "img": ""
     },
     {
       "id": 5,
       "name": "José López",
       "email": "jose.lopez@example.com",
       "number": 600234567,
-      "location": "Bilbao, España"
+      "location": "Bilbao, España",
+      "img": ""
     },
     {
       "id": 6,
       "name": "Ana Sánchez",
       "email": "ana.sanchez@example.com",
       "number": 600456789,
-      "location": "Zaragoza, España"
-    },
-    {
-      "id": 7,
-      "name": "David Torres",
-      "email": "david.torres@example.com",
-      "number": 600567890,
-      "location": "Málaga, España"
-    },
-    {
-      "id": 8,
-      "name": "Laura Ruiz",
-      "email": "laura.ruiz@example.com",
-      "number": 600678901,
-      "location": "Murcia, España"
-    },
-    {
-      "id": 9,
-      "name": "Sergio Ramírez",
-      "email": "sergio.ramirez@example.com",
-      "number": 600789234,
-      "location": "Granada, España"
-    },
-    {
-      "id": 10,
-      "name": "Carmen Herrera",
-      "email": "carmen.herrera@example.com",
-      "number": 600890123,
-      "location": "Alicante, España"
+      "location": "Zaragoza, España",
+      "img": ""
     }
   ],
-
   "orders": [
     {
       "order_id": 1,

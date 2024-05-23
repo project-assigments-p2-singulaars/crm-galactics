@@ -1,0 +1,11 @@
+<h2>Detalle del Cliente</h2>
+
+  <p>ID: {{ customer.id }}</p>
+  <p>Nombre: {{ customer.name }}</p>
+  <p>Email: {{ customer.email }}</p>
+  <p>Número: {{ customer.number }}</p>
+  <p>Ubicación: {{ customer.location }}</p>
+  <p>Imagen: <img [src]="customer.img" alt="{{ customer.name }}"></p>
+
+<button (click)="deleteCustomer(customer.id)">DEL</button>
+<button>EDIT</button>
