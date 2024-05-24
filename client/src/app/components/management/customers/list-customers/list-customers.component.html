@@ -1,9 +1,16 @@
 
-<input matInput placeholder="Ej. Pizza" (keyup)="onKey($event)">
+<mat-form-field class="example-full-width">
+  <mat-label>Search customer</mat-label>
+  <input matInput placeholder="Search"  (keyup)="onKey($event)">
+</mat-form-field>
+
 
 @for (customer of filteredCustomers; track $index) {
+  <div class="card">
     <img src="{{customer.img}}" alt="">
     <a [routerLink]="['/customer', customer.id]" ><h3>{{customer.name}}</h3></a>
+  </div>
+
 
 }
 
