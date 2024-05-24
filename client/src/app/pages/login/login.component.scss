@@ -3,19 +3,20 @@ form {
   flex-direction: column;
   align-items: center;
   gap: 25px;
+  margin-top: 30px;
 }
 
 h2 {
   font-family: "saturn 3";
-  color: red;
+  color: rgb(246, 131, 131);
 }
 
 p {
-  font-family: "saturn 3";
   color: #fff;
 }
 
 a {
   color: #ffa200;
   text-decoration: none;
+  font-size: large;
 }

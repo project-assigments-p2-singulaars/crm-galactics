@@ -1,3 +1,5 @@
+<button mat-flat-button color="warn" [routerLink]='["/create-nave"]' >Create a Space Ship</button>
+
 @for (nave of naves; track $index) {
   <div class="card">
     <a [routerLink]="['/naves', nave.id]"><h2>{{nave.name}}</h2></a>
