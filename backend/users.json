@@ -22,6 +22,18 @@
       "password": "$2a$10$CsG17ffjiZ166UQUcW9XIO/CM1P3w9cSBjGlGILOzCTnkPeOwC61S",
       "userName": "hulio",
       "id": 4
+    },
+    {
+      "email": "dani@dani.com",
+      "password": "$2a$10$O7g0.CU0EE0dEf0h0yoIrubEeiplo8WvgzffcRqK4n3zwLg1KbUtm",
+      "userName": "dani",
+      "id": 5
+    },
+    {
+      "email": "pepe@pepe.com",
+      "password": "$2a$10$MZSRkdPdk65EOCQxYx1pwu1LSzj/zo2CYA2VyRMHBgDMXFmv2ZaJG",
+      "userName": "pepe",
+      "id": 6
     }
   ]
 }
