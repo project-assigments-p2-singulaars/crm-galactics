@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Goliath",
-      "img": "",
+      "img": "https://kitbash3d.com/cdn/shop/products/SS_WEB_HERO_992x.png?v=1640131625",
       "price": 800,
       "description": "Es un tipo de nave que se caracteriza por tener una estructura principal en forma de cuerpo alargado o cilíndrico, con dos apéndices similares a pinzas en los extremos. Estas 'pinzas' suelen ser brazos robóticos o módulos especializados que cumplen diversas funciones, desde la manipulación de objetos hasta el acoplamiento con otras naves o estaciones espaciales.",
       "stock": 100
@@ -11,7 +11,7 @@
     {
       "id": "4",
       "name": "D-Radium",
-      "img": "",
+      "img": "https://i0.wp.com/spacenews.com/wp-content/uploads/2020/01/venturestar-2009.jpg?fit=1154%2C1419&ssl=1",
       "price": 150,
       "description": "La nave espacial se presenta como una estructura horizontal alargada, con una forma que recuerda vagamente a un insecto o a una criatura marina. Su fuselaje principal es largo y estrecho, con una superficie exterior que parece estar compuesta de paneles modulares y suaves curvas aerodinámicas.",
       "stock": 100
@@ -19,7 +19,7 @@
     {
       "id": "5",
       "name": "F1000",
-      "img": "",
+      "img": "https://imgix.ranker.com/user_node_img/3395/67885216/original/uss-enterprise-d-photo-u5?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375",
       "price": 600,
       "description": "Hazaña de la ingeniería aeroespacial, una verdadera maravilla de la velocidad en el espacio. Desde el exterior, su diseño aerodinámico y elegante parece esculpido para desafiar la velocidad misma, con líneas fluidas que sugieren movimiento incluso cuando está en reposo.",
       "stock": 100
@@ -27,7 +27,7 @@
     {
       "id": "6",
       "name": "Toretto",
-      "img": "",
+      "img": "https://qph.cf2.quoracdn.net/main-qimg-0b6350b6da9807ce98851629124072e3-lq",
       "price": 1000,
       "description": "Obra maestra de la ingeniería espacial, con su diseño redondeado que le otorga una presencia imponente en el vasto cosmos. Desde el exterior, su forma es una esfera grande y pulida, que parece flotar con gracia en el vacío del espacio.",
       "stock": 10
@@ -35,7 +35,7 @@
     {
       "id": "7",
       "name": "Dorothy",
-      "img": "",
+      "img": "https://static1.pocketlintimages.com/wordpress/wp-content/uploads/140994-apps-news-feature-19-best-movie-and-tv-spaceships-the-star-craft-that-defined-our-childhood-image19-w6auflsboy.jpg",
       "price": 850,
       "description": "La nave espacial se presenta como una imponente y elegante embarcación, con un diseño que evoca la nostalgia de los antiguos barcos de vela que surcaban los mares de la Tierra. Su casco está adornado con detalles intrincados y ornamentos tallados, recordando una era pasada de exploración y descubrimiento.",
       "stock": 100
@@ -43,7 +43,7 @@
     {
       "id": "8",
       "name": "Boreal",
-      "img": "",
+      "img": "https://i0.wp.com/mediachomp.com/wp-content/uploads/2020/11/10_most_loved_spaceships_04.jpg?resize=650%2C426&ssl=1",
       "price": 800,
       "description": "La nave espacial de fiestas es una maravilla de la ingeniería diseñada para ofrecer la máxima diversión y entretenimiento en el vasto vacío del cosmos. Desde el exterior, su aspecto es llamativo y festivo, con luces brillantes y colores vibrantes que destacan en la oscuridad del espacio.",
       "stock": 100
@@ -51,7 +51,7 @@
     {
       "id": "9",
       "name": "Santi-460C",
-      "img": "",
+      "img": "https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/lku0ety8jqjaafneuvhx.jpg",
       "price": 800,
       "description": "Una nave espacial con forma de crucero podría tener un diseño elegante y aerodinámico, similar al de los lujosos cruceros marítimos, pero adaptado para el viaje espacial.",
       "stock": 100
@@ -59,7 +59,7 @@
     {
       "id": "10",
       "name": "MSC-350",
-      "img": "",
+      "img": "https://i0.wp.com/hips.hearstapps.com/hmg-prod/images/veh-ia-1751-1576604159.jpg?w=760&ssl=1",
       "price": 800,
       "description": "En la parte frontal de la nave, se encuentran múltiples brazos robóticos y grúas de carga, diseñados para manipular y asegurar las naves o los objetos que se transportarán. Estos brazos son altamente móviles y están equipados con sistemas de sujeción y sujeción para garantizar la estabilidad durante el transporte.",
       "stock": 100
@@ -67,7 +67,7 @@
     {
       "id": "11",
       "name": "Agbar",
-      "img": "",
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcursodeinstalador.com%2Fmateriales-utilizados-para-construir-aeronaves%2F&psig=AOvVaw3z1E3H9jBUbWLUXw1mb8Ie&ust=1716624447210000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOito8PqpYYDFQAAAAAdAAAAABAE",
       "price": 800,
       "description": "Diseñada para navegar por las vastas distancias del universo con velocidad y eficiencia sin igual. Su diseño aerodinámico y elegante, combinado con tecnología de propulsión avanzada, la convierten en una nave capaz de viajar a través de sistemas estelares distantes en tiempos relativamente cortos.",
       "stock": 100
@@ -75,7 +75,7 @@
     {
       "id": "12",
       "name": "Little Wolf",
-      "img": "",
+      "img": "https://sm.ign.com/ign_es/screenshot/default/normandysr2b_29eu.jpg",
       "price": 800,
       "description": "Hazaña de la ingeniería aeroespacial, una verdadera maravilla de la velocidad en el espacio. Desde el exterior, su diseño aerodinámico y elegante parece esculpido para desafiar la velocidad misma, con líneas fluidas que sugieren movimiento incluso cuando está en reposo.",
       "stock": 100
@@ -83,7 +83,7 @@
     {
       "id": "13",
       "name": "Cool",
-      "img": "",
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gamesradar.com%2Ftop-50-sci-fi-spaceships%2F&psig=AOvVaw0FCk_Q7KxQSV6uTng43r0t&ust=1716624520600000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOi6iebqpYYDFQAAAAAdAAAAABAE",
       "price": 800,
       "description": "Pináculo del glamour y la opulencia en el espacio. Desde el exterior, su diseño es una obra maestra de elegancia y sofisticación, con líneas aerodinámicas que sugieren velocidad y poder.",
       "stock": 100
@@ -99,7 +99,7 @@
     {
       "id": "15",
       "name": "Satelital",
-      "img": "",
+      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.giantfreakinrobot.com%2Fent%2Ficonic-spaceships.html&psig=AOvVaw0FCk_Q7KxQSV6uTng43r0t&ust=1716624520600000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOi6iebqpYYDFQAAAAAdAAAAABAJ",
       "price": 800,
       "description": "Desde el exterior, su diseño es aerodinámico y funcional, con una forma compacta y elegante que minimiza la resistencia al viento solar y otros factores ambientales en el espacio.",
       "stock": 100
