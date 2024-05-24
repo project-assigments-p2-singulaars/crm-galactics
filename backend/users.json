@@ -34,6 +34,18 @@
       "password": "$2a$10$MZSRkdPdk65EOCQxYx1pwu1LSzj/zo2CYA2VyRMHBgDMXFmv2ZaJG",
       "userName": "pepe",
       "id": 6
+    },
+    {
+      "email": "luis@luis.com",
+      "password": "$2a$10$flLFnXbPp/zZxhCPXvZ.3.hsCeCkELYoiLSitFnuHNuUczHnZ7.ni",
+      "userName": "luis",
+      "id": 7
+    },
+    {
+      "email": "jose@jose.com",
+      "password": "$2a$10$/pVvR7HtM5Xsll4a2hDguOuU2S1SHNuuoOn32vmiyBP6zbs3TkfgW",
+      "userName": "jose",
+      "id": 8
     }
   ]
 }

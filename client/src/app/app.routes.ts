@@ -10,6 +10,8 @@ import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { authGuard } from './guards/auth.guard';
+import { OrdersComponent } from './pages/orders/orders.component';
+import { ProductsComponent } from './pages/products/products.component';
 
 export const routes: Routes = [
     {
@@ -19,6 +21,7 @@ export const routes: Routes = [
     {
         path: 'customers',
         component: ListCustomersComponent,
+        canActivate: [authGuard]
     },
     {
         path: 'customer/:id',
@@ -37,7 +40,7 @@ export const routes: Routes = [
         component: FormNavesComponent,
     },
     {
-        path:'home',
+        path:'dashboard',
         component:DashboardComponent,
         canActivate: [authGuard]
         
@@ -52,6 +55,16 @@ export const routes: Routes = [
     {
         path: 'register', 
         component: RegisterComponent
+    },
+    {
+        path: 'orders', 
+        component: OrdersComponent,
+        canActivate: [authGuard]
+    },
+    {
+        path: 'products', 
+        component: ProductsComponent,
+        canActivate: [authGuard]
     }
-
+    
 ];

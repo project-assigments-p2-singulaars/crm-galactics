@@ -5,7 +5,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -23,11 +23,14 @@ import { RouterLink } from '@angular/router';
 })
 export class RegisterComponent {
   userServcie = inject(UserService);
+  router = inject(Router);
   signUpObj: SignUpModel = new SignUpModel();
 
-  onRegister() {
+  async onRegister() {
     console.log(this.signUpObj);
-    this.userServcie.addUser(this.signUpObj).subscribe();
+    await this.userServcie.addUser(this.signUpObj).subscribe();
+    this.router.navigate(['/dashboard'])
+
   }
 }
 

@@ -55,7 +55,7 @@ export class LoginComponent implements OnInit {
         () => {
           console.log('win');
           // Redirige al usuario a la página de dashboard (ajusta según tus rutas)
-          this.router.navigate(['/home']);
+          this.router.navigate(['/dashboard']);
         },
         (error) => {
           console.log('fail');
