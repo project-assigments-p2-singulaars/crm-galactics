@@ -1,0 +1,67 @@
+# CRM Galactics
+
+Proyecto de un CRM en angular 17 diseñado con angular materials.
+
+Se ha realizado con el modelo SCRUM:
+
+- Product Owner: Santiago Agudo
+- Scrum Master: Ivan Vallejos
+- Developers: Jordi y Julio 
+
+
+
+## Demo Figma
+
+Previews de la pagina hecha con figma:
+
+
+![](/client/src/assets/Captura%20de%20pantalla%202024-05-24%20114655.png)
+![](/client/src/assets/Captura%20de%20pantalla%202024-05-24%20114701.png)
+![](/client/src/assets/Captura%20de%20pantalla%202024-05-24%20114707.png)
+
+
+Para acceder a ella sigue el siguiente enlace: [CRM Galactics en Figma](https://www.figma.com/design/XoPSBqo7eK9uFvL3OdfL0G/Galactics-CRM?node-id=0-1&t=EG96SME2gOOWqTRD-0)
+
+
+
+## Deployment
+
+Para poder hacer el deploy en su navegador siga el siguiente enlace de netlify:
+
+
+
+![](https://cdn.icon-icons.com/icons2/2699/PNG/512/netlify_logo_icon_169924.png)
+
+
+[CRM Galactics]()
+
+## Tech Stack
+
+- `Angular`
+- `Angular Material`
+- `Typescript`
+- `Sass`
+- `Json Server and Json server Auth`
+
+## Run Locally
+
+🤖 Clonar el proyecto 🤖
+
+```bash
+  git clone https://github.com/project-assigments-p2-singulaars/crm-galactics
+```
+```bash
+  git fork https://github.com/project-assigments-p2-singulaars/crm-galactics
+```
+
+```bash
+  pnpm install 
+```
+Para poder instalar todas las dependencias de desarrollo.
+
+
+## Things to do
+Nos hemos basado en un modelo Kanban utilizado con trello para la organización del equipo.
+
+[CRM Galactics - Trello](https://trello.com/b/pTjLtPzI/galacticscrm)
+
