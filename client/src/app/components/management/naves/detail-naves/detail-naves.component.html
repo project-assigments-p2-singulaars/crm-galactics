@@ -1,10 +1,17 @@
-
-    <h1>{{nave.name}}</h1>
-    <h1>{{nave.price}}</h1>
+<div class="background">
+  <h1>{{nave.name}}</h1>
+    <h2>{{nave.price}}</h2>
     <img src="{{nave.img}}" alt="">
-    <h1>{{nave.description}}</h1>
-    <h1>{{nave.stock}}</h1>
-    <h1>{{nave.id}}</h1>
+    <div class="text">
+      <p>{{nave.description}}</p>
+    </div>
 
-    <button (click)="deleteNave(nave.id)">DEL</button>
-    <button (click)="editMode()">EDIT</button>
+    <p>Space Ships on Stock:<strong>{{nave.stock}}</strong></p>
+    <p>Space Ships ID:<strong>{{nave.id}}</strong></p>
+
+    <button mat-flat-button color="warn" (click)="deleteNave(nave.id)">DELETE</button>
+    <!-- <button (click)="editMode()">EDIT</button> -->
+
+</div>
+
+
