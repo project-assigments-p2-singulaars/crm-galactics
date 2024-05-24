@@ -25,9 +25,10 @@ export interface Nave {
 
 export interface Order {
     order_id:    number;
-    customer:    string;
+    customer_id:    number;
     products:    Product[];
     total_price: number;
+    id : number;
 }
 
 export interface Product {

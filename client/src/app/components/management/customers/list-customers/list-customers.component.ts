@@ -33,8 +33,8 @@ export class ListCustomersComponent {
   onKey(event: any){
 
     const valorInput = event.target.value.toLowerCase();
-    this.filteredCustomers = this.customers.filter(food =>
-      food.name.toLowerCase().includes(valorInput)
+    this.filteredCustomers = this.customers.filter(customer =>
+      customer.name.toLowerCase().includes(valorInput)
     );
     console.log(valorInput);
     

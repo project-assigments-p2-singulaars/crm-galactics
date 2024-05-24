@@ -7,8 +7,8 @@ import { userData } from '../interfaces/userData';
   providedIn: 'root'
 })
 export class UserService {
-  url = 'http://localhost:3000/users';
-  loginUrl = 'http://localhost:3000/login'
+  url = 'http://localhost:3001/users';
+  loginUrl = 'http://localhost:3001/login'
   private http = inject(HttpClient);
 
   constructor() { 

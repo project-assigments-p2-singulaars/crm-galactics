@@ -1,10 +1,13 @@
-<h1>{{nave.name}}</h1>
-<h1>{{nave.price}}</h1>
-<h1>{{nave.img}}</h1>
-<h1>{{nave.description}}</h1>
-<h1>{{nave.stock}}</h1>
-<h1>{{nave.id}}</h1>
+@if (!editMode) {
+    <h1>{{nave.name}}</h1>
+    <h1>{{nave.price}}</h1>
+    <h1>{{nave.img}}</h1>
+    <h1>{{nave.description}}</h1>
+    <h1>{{nave.stock}}</h1>
+    <h1>{{nave.id}}</h1>
 
-<button (click)="deleteNave(nave.id)">DEL</button>
-<button>EDIT</button>
+    <button (click)="deleteNave(nave.id)">DEL</button>
+    <button (click)="editMode()">EDIT</button>
+}@else {
 
+}

@@ -19,6 +19,7 @@ export class DetailNavesComponent implements OnInit{
   naves: Nave[] = [];
   nave!: Nave;
   newCustomer: any = {};
+  editmode = false;
 
   ngOnInit(): void {
       
@@ -37,9 +38,10 @@ export class DetailNavesComponent implements OnInit{
     this.router.navigate(['/naves']);
   }
 
-  editNave(id: number) {
-    //this.router.navigate(['/customers', id]);
+  editMode() {
+    this.editmode = !this.editmode;
   }
+
   
 
 }
