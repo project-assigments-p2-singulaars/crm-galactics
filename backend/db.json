@@ -59,7 +59,7 @@
     {
       "id": "11",
       "name": "Agbar",
-      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcursodeinstalador.com%2Fmateriales-utilizados-para-construir-aeronaves%2F&psig=AOvVaw3z1E3H9jBUbWLUXw1mb8Ie&ust=1716624447210000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOito8PqpYYDFQAAAAAdAAAAABAE",
+      "img": "https://mottcorp.com/wp-content/uploads/2022/09/space-defence.jpg",
       "price": 800,
       "description": "Diseñada para navegar por las vastas distancias del universo con velocidad y eficiencia sin igual. Su diseño aerodinámico y elegante, combinado con tecnología de propulsión avanzada, la convierten en una nave capaz de viajar a través de sistemas estelares distantes en tiempos relativamente cortos.",
       "stock": 100
@@ -75,7 +75,7 @@
     {
       "id": "13",
       "name": "Cool",
-      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gamesradar.com%2Ftop-50-sci-fi-spaceships%2F&psig=AOvVaw0FCk_Q7KxQSV6uTng43r0t&ust=1716624520600000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOi6iebqpYYDFQAAAAAdAAAAABAE",
+      "img": "https://static.dw.com/image/61867974_605.jpg",
       "price": 800,
       "description": "Pináculo del glamour y la opulencia en el espacio. Desde el exterior, su diseño es una obra maestra de elegancia y sofisticación, con líneas aerodinámicas que sugieren velocidad y poder.",
       "stock": 100
@@ -83,7 +83,7 @@
     {
       "id": "14",
       "name": "Wheele Wheel",
-      "img": "",
+      "img": "https://preview.redd.it/wolverine-class-privateer-a-starfield-ship-v0-3fbja66cyvuc1.png?width=640&crop=smart&auto=webp&s=c904dc8ccd290d2d90990a7f4bd834f7704d0d25",
       "price": 800,
       "description": "Ejemplo de ingeniería minimalista y funcional, diseñada para cumplir una variedad de funciones importantes en entornos espaciales con restricciones de espacio y recursos limitados. A primera vista, su diseño es simple y compacto, con un fuselaje pequeño pero aerodinámico que permite maniobrar ágilmente en el espacio.",
       "stock": 100
@@ -91,7 +91,7 @@
     {
       "id": "15",
       "name": "Satelital",
-      "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.giantfreakinrobot.com%2Fent%2Ficonic-spaceships.html&psig=AOvVaw0FCk_Q7KxQSV6uTng43r0t&ust=1716624520600000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOi6iebqpYYDFQAAAAAdAAAAABAJ",
+      "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2002/02/esa_s_artemis_satellite2/17863937-3-eng-GB/ESA_s_Artemis_satellite.jpg",
       "price": 800,
       "description": "Desde el exterior, su diseño es aerodinámico y funcional, con una forma compacta y elegante que minimiza la resistencia al viento solar y otros factores ambientales en el espacio.",
       "stock": 100
