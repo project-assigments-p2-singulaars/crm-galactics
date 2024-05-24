@@ -18,7 +18,9 @@ import { ProductsComponent } from './pages/products/products.component';
 export const routes: Routes = [
     {
         path: 'create-customer',
-        component: FormCustomersComponent
+        component: FormCustomersComponent,
+        canActivate: [authGuard]
+
     },
     {
         path: 'customers',
@@ -28,26 +30,38 @@ export const routes: Routes = [
     {
         path: 'customer/:id',
         component: DetailCustomersComponent,
+        canActivate: [authGuard]
+
     },
     {
         path: 'naves',
         component: ListNavesComponent,
+        canActivate: [authGuard]
+
     },
     {
         path: 'naves/:id',
         component: DetailNavesComponent,
+        canActivate: [authGuard]
+
     },
     {
         path: 'create-nave',
         component: FormNavesComponent,
+        canActivate: [authGuard]
+
     },
     {
         path: 'orders',
         component: ListOrderComponent,
+        canActivate: [authGuard]
+
     },
     {
         path: 'orders/:id',
         component: DetailOrderComponent,
+        canActivate: [authGuard]
+
     },
     {
         path:'dashboard',
@@ -57,9 +71,6 @@ export const routes: Routes = [
     },
     {
         path:'', redirectTo: 'home', pathMatch: 'full'
-    },
-    {
-        path:'home', component:LoginComponent
     },
     {
         path: 'login', 
