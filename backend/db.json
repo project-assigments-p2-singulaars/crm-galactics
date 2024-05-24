@@ -11,7 +11,7 @@
     {
       "id": "4",
       "name": "D-Radium",
-      "img": "https://i0.wp.com/spacenews.com/wp-content/uploads/2020/01/venturestar-2009.jpg?fit=1154%2C1419&ssl=1",
+      "img": "https://www.giantbomb.com/a/uploads/original/0/2823/407972-the_pillar_of_autumn.jpg",
       "price": 150,
       "description": "La nave espacial se presenta como una estructura horizontal alargada, con una forma que recuerda vagamente a un insecto o a una criatura marina. Su fuselaje principal es largo y estrecho, con una superficie exterior que parece estar compuesta de paneles modulares y suaves curvas aerodinámicas.",
       "stock": 100
@@ -46,62 +46,6 @@
       "img": "https://i0.wp.com/mediachomp.com/wp-content/uploads/2020/11/10_most_loved_spaceships_04.jpg?resize=650%2C426&ssl=1",
       "price": 800,
       "description": "La nave espacial de fiestas es una maravilla de la ingeniería diseñada para ofrecer la máxima diversión y entretenimiento en el vasto vacío del cosmos. Desde el exterior, su aspecto es llamativo y festivo, con luces brillantes y colores vibrantes que destacan en la oscuridad del espacio.",
-      "stock": 100
-    },
-    {
-      "id": "9",
-      "name": "Santi-460C",
-      "img": "https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/lku0ety8jqjaafneuvhx.jpg",
-      "price": 800,
-      "description": "Una nave espacial con forma de crucero podría tener un diseño elegante y aerodinámico, similar al de los lujosos cruceros marítimos, pero adaptado para el viaje espacial.",
-      "stock": 100
-    },
-    {
-      "id": "10",
-      "name": "MSC-350",
-      "img": "https://i0.wp.com/hips.hearstapps.com/hmg-prod/images/veh-ia-1751-1576604159.jpg?w=760&ssl=1",
-      "price": 800,
-      "description": "En la parte frontal de la nave, se encuentran múltiples brazos robóticos y grúas de carga, diseñados para manipular y asegurar las naves o los objetos que se transportarán. Estos brazos son altamente móviles y están equipados con sistemas de sujeción y sujeción para garantizar la estabilidad durante el transporte.",
-      "stock": 100
-    },
-    {
-      "id": "11",
-      "name": "Agbar",
-      "img": "https://mottcorp.com/wp-content/uploads/2022/09/space-defence.jpg",
-      "price": 800,
-      "description": "Diseñada para navegar por las vastas distancias del universo con velocidad y eficiencia sin igual. Su diseño aerodinámico y elegante, combinado con tecnología de propulsión avanzada, la convierten en una nave capaz de viajar a través de sistemas estelares distantes en tiempos relativamente cortos.",
-      "stock": 100
-    },
-    {
-      "id": "12",
-      "name": "Little Wolf",
-      "img": "https://sm.ign.com/ign_es/screenshot/default/normandysr2b_29eu.jpg",
-      "price": 800,
-      "description": "Hazaña de la ingeniería aeroespacial, una verdadera maravilla de la velocidad en el espacio. Desde el exterior, su diseño aerodinámico y elegante parece esculpido para desafiar la velocidad misma, con líneas fluidas que sugieren movimiento incluso cuando está en reposo.",
-      "stock": 100
-    },
-    {
-      "id": "13",
-      "name": "Cool",
-      "img": "https://static.dw.com/image/61867974_605.jpg",
-      "price": 800,
-      "description": "Pináculo del glamour y la opulencia en el espacio. Desde el exterior, su diseño es una obra maestra de elegancia y sofisticación, con líneas aerodinámicas que sugieren velocidad y poder.",
-      "stock": 100
-    },
-    {
-      "id": "14",
-      "name": "Wheele Wheel",
-      "img": "https://preview.redd.it/wolverine-class-privateer-a-starfield-ship-v0-3fbja66cyvuc1.png?width=640&crop=smart&auto=webp&s=c904dc8ccd290d2d90990a7f4bd834f7704d0d25",
-      "price": 800,
-      "description": "Ejemplo de ingeniería minimalista y funcional, diseñada para cumplir una variedad de funciones importantes en entornos espaciales con restricciones de espacio y recursos limitados. A primera vista, su diseño es simple y compacto, con un fuselaje pequeño pero aerodinámico que permite maniobrar ágilmente en el espacio.",
-      "stock": 100
-    },
-    {
-      "id": "15",
-      "name": "Satelital",
-      "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2002/02/esa_s_artemis_satellite2/17863937-3-eng-GB/ESA_s_Artemis_satellite.jpg",
-      "price": 800,
-      "description": "Desde el exterior, su diseño es aerodinámico y funcional, con una forma compacta y elegante que minimiza la resistencia al viento solar y otros factores ambientales en el espacio.",
       "stock": 100
     }
   ],
