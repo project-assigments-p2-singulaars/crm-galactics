@@ -1,0 +1,33 @@
+
+<div>
+    <h1>ADD SPACESHIP</h1>
+<form [formGroup]="naveForm" (ngSubmit)="createNave(naveForm.value)" class="formulario">
+    <mat-form-field>
+      <mat-label for="name">Nombre</mat-label>
+      <input matInput type="text" formControlName="name" id="name">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <mat-label for="img">Imagen</mat-label>
+      <input matInput type="text" formControlName="img" id="img">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <mat-label for="price">Precio</mat-label>
+      <input matInput type="number" formControlName="price" id="price">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <mat-label for="description">Descripción</mat-label>
+      <input matInput type="text" formControlName="description" id="description">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <mat-label for="stock">Stock</mat-label>
+      <input matInput type="number" formControlName="stock" id="stock">
+    </mat-form-field>
+  
+    <button mat-raised-button type="submit">Submit</button>
+  </form>
+  
+</div>
