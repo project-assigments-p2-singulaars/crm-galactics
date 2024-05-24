@@ -1,13 +1,23 @@
-<h1>Login</h1>
+
 
 <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-    <input type="text" formControlName="email">
-    <input type="password" formControlName="password">
-    <button type="submit">Submit</button>
+  <h2>Login</h2>
+
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input matInput type="text" formControlName="email">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Password</mat-label>
+    <input matInput type="password" formControlName="password">
+  </mat-form-field>
+  <button mat-flat-button color="warn" type="submit">Submit</button>
+  <p>Don’t have an account ?  Go to <a [routerLink]='["/register"]'>register</a> and create one!</p>
   </form>
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+

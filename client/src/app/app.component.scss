@@ -139,9 +139,9 @@ ul {
 
 .content {
   display: block;
-  background: url("../assets/sky-space.jpg");
   grid-area: "content";
   height: 1500px;
+  background-image: url("../assets/sky-space.jpg");
 }
 
 @font-face {
