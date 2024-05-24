@@ -1,0 +1,168 @@
+{
+  "naves": [
+    {
+      "id": "4",
+      "name": "D-Radium",
+      "img": "https://www.giantbomb.com/a/uploads/original/0/2823/407972-the_pillar_of_autumn.jpg",
+      "price": 150,
+      "description": "La nave espacial se presenta como una estructura horizontal alargada, con una forma que recuerda vagamente a un insecto o a una criatura marina. Su fuselaje principal es largo y estrecho, con una superficie exterior que parece estar compuesta de paneles modulares y suaves curvas aerodinámicas.",
+      "stock": 100
+    },
+    {
+      "id": "5",
+      "name": "F1000",
+      "img": "https://imgix.ranker.com/user_node_img/3395/67885216/original/uss-enterprise-d-photo-u5?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=375",
+      "price": 600,
+      "description": "Hazaña de la ingeniería aeroespacial, una verdadera maravilla de la velocidad en el espacio. Desde el exterior, su diseño aerodinámico y elegante parece esculpido para desafiar la velocidad misma, con líneas fluidas que sugieren movimiento incluso cuando está en reposo.",
+      "stock": 100
+    },
+    {
+      "id": "6",
+      "name": "Toretto",
+      "img": "https://qph.cf2.quoracdn.net/main-qimg-0b6350b6da9807ce98851629124072e3-lq",
+      "price": 1000,
+      "description": "Obra maestra de la ingeniería espacial, con su diseño redondeado que le otorga una presencia imponente en el vasto cosmos. Desde el exterior, su forma es una esfera grande y pulida, que parece flotar con gracia en el vacío del espacio.",
+      "stock": 10
+    },
+    {
+      "id": "7",
+      "name": "Dorothy",
+      "img": "https://static1.pocketlintimages.com/wordpress/wp-content/uploads/140994-apps-news-feature-19-best-movie-and-tv-spaceships-the-star-craft-that-defined-our-childhood-image19-w6auflsboy.jpg",
+      "price": 850,
+      "description": "La nave espacial se presenta como una imponente y elegante embarcación, con un diseño que evoca la nostalgia de los antiguos barcos de vela que surcaban los mares de la Tierra. Su casco está adornado con detalles intrincados y ornamentos tallados, recordando una era pasada de exploración y descubrimiento.",
+      "stock": 100
+    },
+    {
+      "id": "8",
+      "name": "Boreal",
+      "img": "https://i0.wp.com/mediachomp.com/wp-content/uploads/2020/11/10_most_loved_spaceships_04.jpg?resize=650%2C426&ssl=1",
+      "price": 800,
+      "description": "La nave espacial de fiestas es una maravilla de la ingeniería diseñada para ofrecer la máxima diversión y entretenimiento en el vasto vacío del cosmos. Desde el exterior, su aspecto es llamativo y festivo, con luces brillantes y colores vibrantes que destacan en la oscuridad del espacio.",
+      "stock": 100
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "Juan Pérez",
+      "email": "juan.perez@example.com",
+      "number": 600123456,
+      "location": "Madrid, España",
+      "img": "https://www.bdfutbol.com/i/j/20120.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Carlos Fernández",
+      "email": "carlos.fernandez@example.com",
+      "number": 600789012,
+      "location": "Valencia, España",
+      "img": "https://img.a.transfermarkt.technology/portrait/big/1089724-1685646985.jpeg?lm=1"
+    },
+    {
+      "id": "4",
+      "name": "Lucía Martínez",
+      "email": "lucia.martinez@example.com",
+      "number": 600345678,
+      "location": "Sevilla, España",
+      "img": "https://www.editorialreus.es/media/img/autores/lucia-molina-martinez.jpg"
+    },
+    {
+      "id": "5",
+      "name": "José López",
+      "email": "jose.lopez@example.com",
+      "number": 600234567,
+      "location": "Bilbao, España",
+      "img": "https://media.ambito.com/p/aeabc9cf6bf20980c712bec3d9354187/adjuntos/239/imagenes/040/180/0040180646/jose-lopezjpeg.jpeg"
+    },
+    {
+      "id": "6",
+      "name": "Ana Sánchez",
+      "email": "ana.sanchez@example.com",
+      "number": 600456789,
+      "location": "Zaragoza, España",
+      "img": "https://www.psoecyl.com/8w/wp-content/uploads/2019/06/0001_ZAMORA_ANA_SANCHEZ_HERNANDEZ_PRC10P6031.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1,
+      "customer_id": 8,
+      "products": [
+        {
+          "id": 6,
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "quantity": 1
+        }
+      ],
+      "total_price": 1800,
+      "id": "add1"
+    },
+    {
+      "order_id": 2,
+      "customer_id": 7,
+      "products": [
+        {
+          "id": 3,
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "quantity": 1
+        }
+      ],
+      "total_price": 1250,
+      "id": "2ba9"
+    },
+    {
+      "order_id": 3,
+      "customer_id": 2,
+      "products": [
+        {
+          "id": 5,
+          "quantity": 1
+        },
+        {
+          "id": 12,
+          "quantity": 1
+        }
+      ],
+      "total_price": 1400,
+      "id": "c27e"
+    },
+    {
+      "order_id": 4,
+      "customer_id": 9,
+      "products": [
+        {
+          "id": 4,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "quantity": 1
+        }
+      ],
+      "total_price": 1000,
+      "id": "f119"
+    },
+    {
+      "order_id": 5,
+      "customer_id": 1,
+      "products": [
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "total_price": 1470,
+      "id": "4acc"
+    }
+  ]
+}

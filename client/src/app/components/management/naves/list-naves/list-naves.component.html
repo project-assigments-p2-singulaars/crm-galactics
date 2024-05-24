@@ -1,0 +1,8 @@
+@for (nave of naves; track $index) {
+  <div class="card">
+    <a [routerLink]="['/naves', nave.id]"><h2>{{nave.name}}</h2></a>
+    <img src="{{nave.img}}" alt="">
+  </div>
+
+
+}

@@ -1,0 +1,10 @@
+<header>
+  <img class="title" src="../../../assets/Galactics.png" alt="Title of the Galactics">
+  <div class="userSection">
+    <button mat-button  [matMenuTriggerFor]="menu">User</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item><a [routerLink]='["/profile"]'>Profile</a></button>
+      <button mat-menu-item (click)="logOut()">Logout</button>
+    </mat-menu>
+  </div>
+</header>
