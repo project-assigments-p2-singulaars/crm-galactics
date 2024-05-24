@@ -1,5 +1,5 @@
 @for (order of orders; track $index) {
-    <a [routerLink]="['/orders', order.order_id]"><h2>{{order.order_id}}</h2></a>
+    <a [routerLink]="['/orders', order.id]"><h2>{{order.id}}</h2></a>
     <p>Customer_id: {{order.customer_id}}</p>
     <p>productos: {{order.products}}</p>
     <p>Total: {{order.total_price}}</p>
