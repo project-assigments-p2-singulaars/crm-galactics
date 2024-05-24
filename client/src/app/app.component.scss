@@ -134,12 +134,11 @@ ul {
   grid-template-areas:
     "header header"
     "aside content";
-  grid-template-columns: 14% auto;
+  grid-template-columns: 15% auto;
 }
 
 .content {
   display: block;
-  background: url("../assets/sky-space.jpg");
   grid-area: "content";
   height: 1500px;
 }
