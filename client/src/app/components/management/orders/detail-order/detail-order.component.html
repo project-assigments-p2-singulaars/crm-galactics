@@ -1,0 +1,10 @@
+<h2>Detalle del Cliente</h2>
+
+
+    <h2>{{order.order_id}}</h2>
+    <p>Customer_id: {{order.customer_id}}</p>
+    <p>productos: {{order.products}}</p>
+    <p>Total: {{order.total_price}}</p>
+
+<button (click)="deleteCustomer(order.order_id)">DEL</button>
+<button>EDIT</button>

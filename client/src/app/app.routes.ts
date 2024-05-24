@@ -6,6 +6,8 @@ import { FormCustomersComponent } from './components/management/customers/form-c
 import { ListNavesComponent } from './components/management/naves/list-naves/list-naves.component';
 import { DetailNavesComponent } from './components/management/naves/detail-naves/detail-naves.component';
 import { FormNavesComponent } from './components/management/naves/form-naves/form-naves.component';
+import { ListOrderComponent } from './components/management/orders/list-order/list-order.component';
+import { DetailOrderComponent } from './components/management/orders/detail-order/detail-order.component';
 
 export const routes: Routes = [
     {
@@ -32,4 +34,13 @@ export const routes: Routes = [
         path: 'create-naves',
         component: FormNavesComponent,
     },
+    {
+        path: 'orders',
+        component: ListOrderComponent,
+    },
+    {
+        path: 'orders/:id',
+        component: DetailOrderComponent,
+    }
+    
 ];
