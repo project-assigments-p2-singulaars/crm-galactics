@@ -1,36 +1,31 @@
+<div>
 <h1>Add Customer</h1>
-<form [formGroup]="customerForm" (ngSubmit)="createCustomer(customerForm.value)">
-    <div>
-    <label for="name">Nombre:</label>
-    <input id="name" formControlName="name">
-        @if (customerForm.get('name')?.invalid && customerForm.get('name')?.touched) { 
+<form [formGroup]="customerForm" (ngSubmit)="createCustomer(customerForm.value)" class="formulario">
+  <mat-form-field>
+    <mat-label for="name">Nombre</mat-label>
+    <input matInput id="name" formControlName="name">
+  </mat-form-field>
 
-            <div>
-                <p>Nombre es requerido.</p>
-            </div>
-        }
-        
-    </div>
+  <mat-form-field>
+    <mat-label for="email">Email</mat-label>
+    <input matInput id="email" formControlName="email">
+  </mat-form-field>
 
-    <div>
-    <label for="email">Email:</label>
-    <input id="email" formControlName="email">
-    </div>
+  <mat-form-field>
+    <mat-label for="number">Número</mat-label>
+    <input matInput id="number" formControlName="number">
+  </mat-form-field>
 
-    <div>
-    <label for="number">Número:</label>
-    <input id="number" formControlName="number">
-    </div>
+  <mat-form-field>
+    <mat-label for="location">Ubicación</mat-label>
+    <input matInput id="location" formControlName="location">
+  </mat-form-field>
 
-    <div>
-    <label for="location">Ubicación:</label>
-    <input id="location" formControlName="location">
-    </div>
+  <mat-form-field>
+    <mat-label for="img">Imagen URL</mat-label>
+    <input matInput id="img" formControlName="img">
+  </mat-form-field>
 
-    <div>
-    <label for="img">Imagen URL:</label>
-    <input id="img" formControlName="img">
-    </div>
-
-    <button type="submit" [disabled]="customerForm.invalid">Añadir Cliente</button>
+  <button mat-raised-button type="submit">Añadir Cliente</button>
 </form>
+</div>

@@ -4,11 +4,15 @@ import { CrudService } from '../../../../services/crud.service';
 import { Observable } from 'rxjs';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-form-customers',
   standalone: true,
-  imports: [HttpClientModule,ReactiveFormsModule],
+  imports: [HttpClientModule,ReactiveFormsModule,MatInputModule,MatFormFieldModule,MatButtonModule],
   templateUrl: './form-customers.component.html',
   styleUrl: './form-customers.component.scss'
 })
@@ -19,7 +23,7 @@ export class FormCustomersComponent {
 
   naves: Nave[] = [];
 
-  constructor(private crudService: CrudService, private fb: FormBuilder) { 
+  constructor(private crudService: CrudService, private fb: FormBuilder,private router: Router) { 
     this.customerForm = this.fb.group({
     name: ['', Validators.required],
     email: ['', [Validators.required, Validators.email]],
@@ -35,7 +39,8 @@ export class FormCustomersComponent {
   //this.crudService.createCustomer(customer).subscribe();
   
   this.crudService.createCustomer(this.customerForm.value).subscribe(() => {
-    console.log('Customer added successfully');
+    alert('Customer added successfully');
+    this.router.navigate(['/customers']);
   });
   
 }
