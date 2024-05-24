@@ -38,7 +38,7 @@ export const routes: Routes = [
         component: DetailNavesComponent,
     },
     {
-        path: 'create-naves',
+        path: 'create-nave',
         component: FormNavesComponent,
     },
     {

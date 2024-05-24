@@ -1,0 +1,32 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; 
+    margin: 0 auto; 
+    opacity: 1;
+    margin-bottom: -8%;
+  }
+  
+  mat-form-field {
+    margin-bottom: 16px;
+  }
+ 
+  div{
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.7) ;
+    width: 70%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 15%;
+    text-align: center;
+  }
+
+  h1{
+    font-family: "saturn 3";
+  font-size: 50px;
+  color: #f4ada7;
+  text-decoration: none;
+  -webkit-text-stroke: 2px #24385c;
+  margin-bottom: 5%;
+  margin-top: -10%;
+  }

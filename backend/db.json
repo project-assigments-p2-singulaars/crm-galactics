@@ -1,14 +1,6 @@
 {
   "naves": [
     {
-      "id": "1",
-      "name": "Goliath",
-      "img": "https://kitbash3d.com/cdn/shop/products/SS_WEB_HERO_992x.png?v=1640131625",
-      "price": 800,
-      "description": "Es un tipo de nave que se caracteriza por tener una estructura principal en forma de cuerpo alargado o cilíndrico, con dos apéndices similares a pinzas en los extremos. Estas 'pinzas' suelen ser brazos robóticos o módulos especializados que cumplen diversas funciones, desde la manipulación de objetos hasta el acoplamiento con otras naves o estaciones espaciales.",
-      "stock": 100
-    },
-    {
       "id": "4",
       "name": "D-Radium",
       "img": "https://www.giantbomb.com/a/uploads/original/0/2823/407972-the_pillar_of_autumn.jpg",
@@ -89,6 +81,30 @@
       "number": 600456789,
       "location": "Zaragoza, España",
       "img": ""
+    },
+    {
+      "id": 7,
+      "name": "dasd",
+      "email": "dasd",
+      "number": "2212",
+      "location": "sadas",
+      "img": "https://pbs.twimg.com/profile_images/1601468664053698562/NuzsYaUh_200x200.jpg"
+    },
+    {
+      "id": 8,
+      "name": "dasd",
+      "email": "dasd@gmail.com",
+      "number": "2212",
+      "location": "sadas",
+      "img": "https://pbs.twimg.com/profile_images/1601468664053698562/NuzsYaUh_200x200.jpg"
+    },
+    {
+      "id": 9,
+      "name": "dasd",
+      "email": "dasd@gmail.com",
+      "number": "2212",
+      "location": "sadas",
+      "img": "https://pbs.twimg.com/profile_images/1601468664053698562/NuzsYaUh_200x200.jpg"
     }
   ],
   "orders": [
