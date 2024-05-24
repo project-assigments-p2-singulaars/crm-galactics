@@ -1,11 +1,29 @@
-<h1>REGISTER</h1>
 <form>
-<label for="username">User name:</label>
+<!-- <label for="username">User name:</label>
 <input type="text" [(ngModel)]="signUpObj.userName" id="username" name="userName" required>
 <label for="email">Email:</label>
 <input type="email" [(ngModel)]="signUpObj.email" id="email" name="email" required>
 <label for="password">Password:</label>
 <input type="password" [(ngModel)]="signUpObj.password" id="password" name="password" required>
 <input type="submit" value="Submit" (click)="onRegister()">
-<p>Aleready registered?Go to Login now!</p>
+ -->
+
+<h2>Register</h2>
+
+<mat-form-field>
+  <mat-label for="username">User Name:</mat-label>
+  <input matInput type="text" [(ngModel)]="signUpObj.userName" id="username" name="userName" required>
+</mat-form-field>
+<mat-form-field>
+  <mat-label for="email">Email:</mat-label>
+  <input matInput type="email" [(ngModel)]="signUpObj.email" id="email" name="email" required>
+</mat-form-field>
+<mat-form-field>
+  <mat-label for="password">Password:</mat-label>
+  <input matInput type="password" [(ngModel)]="signUpObj.password" id="password" name="password" required>
+</mat-form-field>
+<button mat-flat-button color="warn" type="submit" value="Submit" (click)="onRegister()">Submit</button>
+
+<p>Aleready registered?  Go to <a [routerLink]='["/login"]'>login</a> now!</p>
+
 </form>
