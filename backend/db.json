@@ -1,7 +1,7 @@
 {
   "naves": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Goliath",
       "img": "",
       "price": 800,
@@ -9,23 +9,7 @@
       "stock": 100
     },
     {
-      "id": 2,
-      "name": "Nsotromos",
-      "img": "",
-      "price": 670,
-      "description": "Diseño que combina elementos de aerodinámica terrestre con los requisitos de resistencia y estabilidad necesarios para operar en el vacío del espacio.",
-      "stock": 100
-    },
-    {
-      "id": 3,
-      "name": "Y-Ronin",
-      "img": "",
-      "price": 450,
-      "description": "Dimensiones compactas que podrían sorprender a primera vista. Sin embargo, a medida que uno se acerca, se hace evidente que esta modesta apariencia es engañosa. A pesar de su tamaño reducido, su masa es considerable, lo que sugiere una densidad extraordinaria en su construcción.",
-      "stock": 100
-    },
-    {
-      "id": 4,
+      "id": "4",
       "name": "D-Radium",
       "img": "",
       "price": 150,
@@ -33,7 +17,7 @@
       "stock": 100
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "F1000",
       "img": "",
       "price": 600,
@@ -41,7 +25,7 @@
       "stock": 100
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Toretto",
       "img": "",
       "price": 1000,
@@ -49,7 +33,7 @@
       "stock": 10
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Dorothy",
       "img": "",
       "price": 850,
@@ -57,7 +41,7 @@
       "stock": 100
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Boreal",
       "img": "",
       "price": 800,
@@ -65,7 +49,7 @@
       "stock": 100
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Santi-460C",
       "img": "",
       "price": 800,
@@ -73,7 +57,7 @@
       "stock": 100
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "MSC-350",
       "img": "",
       "price": 800,
@@ -81,7 +65,7 @@
       "stock": 100
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Agbar",
       "img": "",
       "price": 800,
@@ -89,7 +73,7 @@
       "stock": 100
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Little Wolf",
       "img": "",
       "price": 800,
@@ -97,7 +81,7 @@
       "stock": 100
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Cool",
       "img": "",
       "price": 800,
@@ -105,7 +89,7 @@
       "stock": 100
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Wheele Wheel",
       "img": "",
       "price": 800,
@@ -113,90 +97,60 @@
       "stock": 100
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Satelital",
       "img": "",
       "price": 800,
       "description": "Desde el exterior, su diseño es aerodinámico y funcional, con una forma compacta y elegante que minimiza la resistencia al viento solar y otros factores ambientales en el espacio.",
       "stock": 100
-    },
-    {
-      "id": 16,
-      "name": "Cool",
-      "img": "",
-      "price": 800,
-      "description": "Pináculo del glamour y la opulencia en el espacio. Desde el exterior, su diseño es una obra maestra de elegancia y sofisticación, con líneas aerodinámicas que sugieren velocidad y poder.",
-      "stock": 100
     }
   ],
-
-  "costumers": [
+  "customers": [
     {
+      "id": "1",
       "name": "Juan Pérez",
       "email": "juan.perez@example.com",
       "number": 600123456,
-      "location": "Madrid, España"
+      "location": "Madrid, España",
+      "img": ""
     },
     {
-      "name": "María Gómez",
-      "email": "maria.gomez@example.com",
-      "number": 600654321,
-      "location": "Barcelona, España"
-    },
-    {
+      "id": "3",
       "name": "Carlos Fernández",
       "email": "carlos.fernandez@example.com",
       "number": 600789012,
-      "location": "Valencia, España"
+      "location": "Valencia, España",
+      "img": ""
     },
     {
+      "id": "4",
       "name": "Lucía Martínez",
       "email": "lucia.martinez@example.com",
       "number": 600345678,
-      "location": "Sevilla, España"
+      "location": "Sevilla, España",
+      "img": ""
     },
     {
+      "id": "5",
       "name": "José López",
       "email": "jose.lopez@example.com",
       "number": 600234567,
-      "location": "Bilbao, España"
+      "location": "Bilbao, España",
+      "img": ""
     },
     {
+      "id": "6",
       "name": "Ana Sánchez",
       "email": "ana.sanchez@example.com",
       "number": 600456789,
-      "location": "Zaragoza, España"
-    },
-    {
-      "name": "David Torres",
-      "email": "david.torres@example.com",
-      "number": 600567890,
-      "location": "Málaga, España"
-    },
-    {
-      "name": "Laura Ruiz",
-      "email": "laura.ruiz@example.com",
-      "number": 600678901,
-      "location": "Murcia, España"
-    },
-    {
-      "name": "Sergio Ramírez",
-      "email": "sergio.ramirez@example.com",
-      "number": 600789234,
-      "location": "Granada, España"
-    },
-    {
-      "name": "Carmen Herrera",
-      "email": "carmen.herrera@example.com",
-      "number": 600890123,
-      "location": "Alicante, España"
+      "location": "Zaragoza, España",
+      "img": ""
     }
   ],
-
   "orders": [
     {
       "order_id": 1,
-      "customer": "Laura Ruiz",
+      "customer_id": 8,
       "products": [
         {
           "id": 6,
@@ -207,11 +161,12 @@
           "quantity": 1
         }
       ],
-      "total_price": 1800
+      "total_price": 1800,
+      "id": "add1"
     },
     {
       "order_id": 2,
-      "customer": "David Torres",
+      "customer_id": 7,
       "products": [
         {
           "id": 3,
@@ -222,11 +177,12 @@
           "quantity": 1
         }
       ],
-      "total_price": 1250
+      "total_price": 1250,
+      "id": "2ba9"
     },
     {
       "order_id": 3,
-      "customer": "María Gómez",
+      "customer_id": 2,
       "products": [
         {
           "id": 5,
@@ -237,11 +193,12 @@
           "quantity": 1
         }
       ],
-      "total_price": 1400
+      "total_price": 1400,
+      "id": "c27e"
     },
     {
       "order_id": 4,
-      "customer": "Sergio Ramírez",
+      "customer_id": 9,
       "products": [
         {
           "id": 4,
@@ -252,11 +209,12 @@
           "quantity": 1
         }
       ],
-      "total_price": 1000
+      "total_price": 1000,
+      "id": "f119"
     },
     {
       "order_id": 5,
-      "customer": "Juan Pérez",
+      "customer_id": 1,
       "products": [
         {
           "id": 1,
@@ -267,7 +225,8 @@
           "quantity": 1
         }
       ],
-      "total_price": 1470
+      "total_price": 1470,
+      "id": "4acc"
     }
   ]
 }
